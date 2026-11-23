@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Uproot</AssemblyName>
+    <RootNamespace>Uproot</RootNamespace>
+    <Product>Uproot</Product>
+    <Version>1.0.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <SatelliteResourceLanguages>ru</SatelliteResourceLanguages>
+    <!-- ThemeMode (тема Fluent) в WPF помечен как экспериментальный -->
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="AppIcon.ico" />
+  </ItemGroup>
+
+</Project>

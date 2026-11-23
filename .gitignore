@@ -1,0 +1,29 @@
+# macOS и редакторы
+.DS_Store
+*.swp
+.idea/
+
+# Сборка Swift и установщик
+mac/.build/
+mac/build/
+
+# Сборка Windows/.NET
+windows/**/bin/
+windows/**/obj/
+windows/**/publish/
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Логи и временные файлы
+*.log
+tmp/
+temp/
+.cache/
